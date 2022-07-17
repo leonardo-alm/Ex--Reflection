@@ -13,7 +13,7 @@ namespace Reflection
         public int RollNumber { get; set; }
         public void DisplayInfo()
         {
-            Console.WriteLine($"{Name} - {University} - {RollNumber}");
+            Console.WriteLine($"\n{Name} - {University} - {RollNumber}");
         }
     }
 }
